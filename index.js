@@ -27,7 +27,7 @@ for (let i = 0; i < placemarks.length; i++) {
   // Rename the placemark
   const nameElement = placemark.getElementsByTagName('name')[0];
   nameElement.textContent = ' ';
-}
+} 
 
 // Save the modified KML data to a new file
 const serializer = new XMLSerializer();
